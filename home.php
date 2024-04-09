@@ -11,27 +11,17 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
-    <style>
-        .bg-teal {
-            background-color: teal !important;
-        }
-
-        .text-white {
-    color: white !important; /* White color */
-}
-    </style>
+    
+   
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-teal text-white">
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             
-            <a class="navbar-brand ps-3" href="index.html">RHU I</a>
+            <a class="navbar-brand ps-3" href="index.html">Home</a>
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                </div>
+                
             </form>
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
@@ -52,15 +42,22 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                           
+                        <div class="navbar-header d-flex justify-content-center align-items-center">
+                                <a class="navbar-brand" href="#">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <i class="fas fa-user fa-fw fa-3x me-2 mx-auto padding-icon" ></i>
+                                        <div>Administrator</div>
+                                        <hr class="hr">
+                                    </div>
+                                </a>
+                            </div>
+
                             <a class="nav-link text-white" href="home.php">
                                 <div class="sb-nav-link-icon text-white"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
                            
-                           
-                           
-                           
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                                 <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                                    
                                 </nav>
@@ -133,7 +130,7 @@
                                 <i class="fas fa-table me-1"></i>
                                 DataTable Example
                             </div>
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
