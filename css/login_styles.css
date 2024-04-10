@@ -1,0 +1,101 @@
+
+        body {
+            background-image: linear-gradient(to left bottom, #058a5f, #038863, #058667, #0b836a, #13816d);
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1000px; /* Adjust the width as needed */
+            height: 600px; /* Adjust the height as needed */
+            background-color: white;
+            display: flex; /* Added to use flexbox */
+            align-items: center; /* Added to vertically center content */
+            justify-content: center; /* Added to horizontally center content */
+        }
+
+        .angular-shape {
+            position: absolute;
+            background-color: #acd3ce; /* Adjust color as needed */
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+        }
+
+        .bottom-left {
+            bottom: 0;
+            left: 0;
+            clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+        }
+
+        .top-right {
+            top: 0;
+            right: 0;
+            clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
+        }
+
+        .logo-container {
+            position: absolute;
+            left: 130px; /* Adjust the distance from the left side */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-container img {
+            width: 150px; /* Adjust image width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .logo-text {
+            font-size: 20px; /* Adjust font size as needed */
+            margin-top: 40px; /* Adjust spacing between image and text */
+            font-weight: bold;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .login-form {
+            position: absolute;
+            right: 70px; /* Adjust the distance from the right side */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+
+        .login-form input {
+            margin-bottom: 15px; /* Adjust spacing between inputs */
+            padding: 8px; /* Adjust padding as needed */
+            width: 200px; /* Adjust input width as needed */
+            border: 2px solid #038863;
+            border-color: #038863;
+        }
+                 
+        .btn-grad {
+            background-image: linear-gradient(to right, #038D5C 0%, #23748F  51%, #038D5C  100%);
+            margin: 10px;
+            padding: 5px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 200px; /* Adjust width */
+            height: 40px; /* Adjust height */
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+        p, h2{
+            font-family: 'Inter', sans-serif;
+        }
+        
+         
+   
