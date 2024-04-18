@@ -1,6 +1,6 @@
 
 <?php 
-	include './Backend/connection.php';
+	include './backend/connection.php';
 
 $message = '';
 
